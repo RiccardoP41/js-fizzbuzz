@@ -14,16 +14,16 @@
 for (var i = 1; i <=100 ; i++) {
 
     if (i % 15 == 0) {
-        document.getElementById('fizzbuzz').innerHTML += "<li>" + "FizzBuzz" + "</li>"
+        document.getElementById('fizzbuzz').innerHTML += "<li>" + "FizzBuzz" + "</li>";
         // console.log("FizzBuzz");
     }else if (i % 3 == 0) {
-        document.getElementById('fizzbuzz').innerHTML += "<li>" + "Fizz" + "</li>"
+        document.getElementById('fizzbuzz').innerHTML += "<li>" + "Fizz" + "</li>";
         // console.log("Fizz");
     }else if (i % 5 == 0) {
-        document.getElementById('fizzbuzz').innerHTML += "<li>" + "Buzz" + "</li>"
+        document.getElementById('fizzbuzz').innerHTML += "<li>" + "Buzz" + "</li>";
         // console.log("Buzz");
     } else {
-        document.getElementById('fizzbuzz').innerHTML += "<li>" + i + "</li>"
+        document.getElementById('fizzbuzz').innerHTML += "<li>" + i + "</li>";
         // console.log(i);
     }
 }
